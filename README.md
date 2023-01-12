@@ -1,3 +1,6 @@
+##Observações sobre o repositório:
+Projeto originalmente elaborado em repositório privado e pertencente à escola Kenzie para fins de avaliação. Para fins de portifólio, clonei o código em meu github. 
+
 # Kenzie Pets
 
 Projeto em equipe onde criaremos uma aplicação de adoção de pets.
