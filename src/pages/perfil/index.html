@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KenziePets | Perfil</title>
+    <link rel="stylesheet" href="../../styles/reset.css">
+    <link rel="stylesheet" href="../../styles/globalStyles.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/button.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <link rel="stylesheet" href="../../styles/fonts.css">
+    <link rel="stylesheet" href="/src/styles/toast.css">
+    <script defer type="module" src="/src/scripts/logOut.js"></script>
+    <script defer type="module" src="/src/pages/perfil/index.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="div_header">
+            <img class="logo" src="/src/assets/imgs/logo.svg">
+            <button class="open_sandwich"><img class="open" src="/src/assets/imgs/botaoAbrir.svg"></button>
+        </div>
+        <div class="div_sandwich">
+            <button class="button_white" id="register">Home</button>
+            <button class="button_purple" id="logout">Logout</button>
+        </div>
+    </header>
+    <main class="container flex relative">
+        <div class="rectangle"><img src="../../assets/imgs/Rectangle 33.png"></div>
+        <nav id="nav_profile" class="nav-container-1"></nav>
+        <nav class="nav-container-2">
+            <div>
+                <button class="button_green" id="registerPet">Cadastrar novo pet</button>
+            </div>
+            <nav>
+                <ul id="my-list-pets">
+                </ul>
+            </nav>
+        </nav>
+        <footer id="footer">
+            <h3 id="p_footer">KenziePets | Todos os Direitos Reservados</h3>
+        </footer>
+    </main>
+
+</body>
+
+</html>

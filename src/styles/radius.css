@@ -1,0 +1,80 @@
+.radius-50{
+  border-radius: 50%;
+}
+.radius-1{
+  border-radius: var(--radius-1);
+}
+.radius-2{
+  border-radius: var(--radius-2);
+}
+.radius-3{
+  border-radius: var(--radius-3);
+}
+.radius-4{
+  border-radius: var(--radius-4);
+}
+
+.radius-top-1{
+  border-top-left-radius: var(--radius-1);
+  border-top-right-radius: var(--radius-1);
+}
+.radius-top-2{
+  border-top-left-radius: var(--radius-2);
+  border-top-right-radius: var(--radius-2);
+}
+.radius-top-3{
+  border-top-left-radius: var(--radius-3);
+  border-top-right-radius: var(--radius-3);
+}
+.radius-top-4{
+  border-top-left-radius: var(--radius-4);
+  border-top-right-radius: var(--radius-4);
+}
+.radius-bottom-1{
+  border-bottom-left-radius: var(--radius-1);
+  border-top-right-radius: var(--radius-1);
+}
+.radius-bottom-2{
+  border-bottom-left-radius: var(--radius-2);
+  border-bottom-right-radius: var(--radius-2);
+}
+.radius-bottom-3{
+  border-bottom-left-radius: var(--radius-3);
+  border-bottom-right-radius: var(--radius-3);
+}
+.radius-bottom-4{
+  border-bottom-left-radius: var(--radius-4);
+  border-bottom-right-radius: var(--radius-4);
+}
+.radius-left-1{
+  border-top-left-radius: var(--radius-1);
+  border-bottom-left-radius: var(--radius-1);
+}
+.radius-left-2{
+  border-top-left-radius: var(--radius-2);
+  border-bottom-left-radius: var(--radius-2);
+}
+.radius-left-3{
+  border-top-left-radius: var(--radius-3);
+  border-bottom-left-radius: var(--radius-3);
+}
+.radius-left-4{
+  border-top-left-radius: var(--radius-4);
+  border-bottom-left-radius: var(--radius-4);
+}
+.radius-right-1{
+  border-top-right-radius: var(--radius-1);
+  border-bottom-right-radius: var(--radius-1);
+}
+.radius-right-2{
+  border-top-right-radius: var(--radius-2);
+  border-bottom-right-radius: var(--radius-2);
+}
+.radius-right-3{
+  border-top-right-radius: var(--radius-3);
+  border-bottom-right-radius: var(--radius-3);
+}
+.radius-right-4{
+  border-top-right-radius: var(--radius-4);
+  border-bottom-right-radius: var(--radius-4);
+}

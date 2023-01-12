@@ -1,0 +1,154 @@
+.button_white {
+    width: 7rem;
+    height: 1.875rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.15rem;
+    background-color: var(--grey400);
+    border: 1px solid var(--brand100);
+    color: var(--brand100);
+    font-size: 1.15rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 1rem;
+
+}
+
+.button_white:hover {
+    border: 1px solid var(--brand200);
+    color: var(--brand200);
+}
+
+.button_purple {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.25rem;
+    width: 7rem;
+    height: 1.875rem;
+    
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    color: var(--grey400);
+    font-size: 1.15rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 1rem;
+}
+
+.button_purple:hover {
+    border: 1px solid var(--brand200);
+    background-color: var(--brand200);
+}
+
+.clean-btn{
+    border:none;
+    background-color: transparent;
+}
+
+.button_purple_max {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.25rem;
+
+    height: 1.875rem;
+
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    color: var(--grey400);
+    font-size: 1.15rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 1rem;
+}
+.button_purple_info{
+    height: 1.9rem;
+    width: 11.375rem;
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    color: var(--grey400);
+    font-size: 1.15rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+.button_purple_modal_delete{
+    height: 1.9rem;
+    width: 15rem;
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    color: var(--grey400);
+    font-size: 1.15rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.button_red_info{
+    width: 7.875rem;
+    height: 1.9rem;
+    background-color: var(--grey400);
+    border: 1px solid var(--alert100);
+    color: var(--alert100);
+    font-size: 1.15rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+.button_red_modal{
+    width: 15rem;
+    height: 1.9rem;
+    background-color: var(--grey400);
+    border: 1px solid var(--alert100);
+    color: var(--alert100);
+    font-size: 1.15rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.button_green{
+    width: 10.125rem ;
+    height: 1.75rem;
+    background-color: var(--sucess100);
+    color: var(--grey400);
+    border: 1px solid var(--sucess100);
+    border-radius: 1rem;
+}
+
+.button_purple_modal{
+    height: 2.5rem;
+    width: 15rem;
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    color: var(--grey400);
+    font-size: 1.15rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.button_purple_modal_delete:hover {
+    border: 1px solid var(--brand200);
+    background-color: var(--brand200);
+}
+
+.button_purple_info:hover {
+    border: 1px solid var(--brand200);
+    background-color: var(--brand200);
+}
+
+.button_purple_modal:hover {
+    border: 1px solid var(--brand200);
+    background-color: var(--brand200);
+}
+
+#close:hover{
+   transform: scale(0.8);
+}
+.button_green:hover {
+    opacity: 0.8;
+}
+
+.button_red_info:hover{
+    background-color: var(--alert100);
+    border: 1px solid var(--alert100);
+    color: var(--grey400);
+}
+
+.button_red_modal:hover{
+    background-color: var(--alert100);
+    border: 1px solid var(--alert100);
+    color: var(--grey400);
+}

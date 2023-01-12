@@ -1,0 +1,97 @@
+.width-full {
+  width: 100%;
+}
+
+.width-half {
+  width: 50%;
+}
+
+.width-partial-80 {
+  width: 80%;
+}
+
+.width-partial-70 {
+  width: 70%;
+}
+
+.width-partial-60 {
+  width: 60%;
+}
+
+.width-partial-40 {
+  width: 40%;
+}
+
+.width-partial-30 {
+  width: 30%;
+}
+
+.width-partial-20 {
+  width: 20%;
+}
+
+.width-screen {
+  width: 100vw;
+}
+
+.height-screen {
+  height: 100vh;
+}
+.size-0{
+  size: var(--size-0);
+}
+.size-1{
+  size: var(--size-1);
+}
+
+.size-2{
+  size: var(--size-2);
+}
+
+.size-3{
+  size: var(--size-3);
+}
+
+.size-4{
+  size: var(--size-4);
+}
+
+.size-5{
+  size: var(--size-5);
+}
+
+.size-6{
+  size: var(--size-6);
+}
+
+.size-7{
+  size: var(--size-7);
+}
+
+.size-8{
+  size: var(--size-8);
+}
+
+.size-9{
+  size: var(--size-9);
+}
+
+.size-10{
+  size: var(--size-10);
+}
+
+.size-11{
+  size: var(--size-11);
+}
+
+.size-12{
+  size: var(--size-12);
+}
+
+.size-13{
+  size: var(--size-13);
+}
+
+.size-14{
+  size: var(--size-14);
+}

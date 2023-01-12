@@ -1,0 +1,213 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+}
+
+body {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.header {
+    width: 100vw;
+    height: 5rem;
+    border-bottom: 1px solid var(--grey200);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 3.75rem 0rem 3.75rem;
+}
+
+.open_sandwich {
+    display: none;
+}
+
+.div_sandwich {
+
+    gap: 0.75rem;
+}
+
+.container_cards {
+
+    height: 44.875rem;
+    padding-top: 6rem;
+    width: 50rem;
+    margin: 0 auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+
+
+}
+
+.container_cards::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+body::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+
+.card_pet {
+    width: 12.5rem;
+    height: 17.125rem;
+    margin: 0 auto;
+    border-radius: 0.5rem;
+    box-shadow: 0.1px 0.1px 5px 0.1px var(--brand200);
+
+}
+
+.texto_card {
+    margin: 0.75rem 0.75rem 0.75rem 0.75rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.pet_name {
+    color: var(--brand100);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.img_card {
+    width: 12.5rem;
+    height: 10rem;
+    border-radius: 0.5rem 0.5rem 0rem 0rem;
+}
+
+.pet_type {
+    color: var(--grey200);
+    font-size: var(--size-12);
+    margin-bottom: 0.75rem;
+}
+
+
+.footer {
+
+    position: sticky;
+    top: 96%;
+    width: 100vw;
+    height: 3rem;
+    display: fixed;
+    background-color: var(--brand200);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.p_footer {
+    color: var(--brand100);
+}
+
+.flex {
+    display: flex;
+}
+
+.none {
+    display: none;
+}
+
+@media(max-width: 500px) {
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .header {
+        width: 100vw;
+        height: unset;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .div_sandwich {
+        display: flex;
+        height: 5.8rem;
+        align-items: center;
+        display: none;
+    }
+
+    .div_header {
+        width: 100vw;
+        height: 3.75rem;
+        display: flex;
+        justify-content: space-between;
+        padding: 0rem 1.75rem 0rem 1.75rem;
+        align-items: center;
+    }
+
+
+
+    .open_sandwich {
+        display: flex;
+        background-color: white;
+        border: none;
+    }
+
+    .container_cards {
+
+        width: 100vw;
+        padding: 1rem 1.5rem 1rem 1.5rem;
+        height: 87vh;
+        margin-top: 0rem;
+        width: 100vw;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .card_pet {
+        width: 14rem;
+        height: 18rem;
+        margin: 0 auto;
+        border-radius: 0.5rem;
+        box-shadow: 0.1px 0.1px 5px 0.1px var(--brand200);
+
+    }
+
+    .texto_card {
+        margin: 0.75rem 0.75rem 0.75rem 0.75rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .pet_name {
+        color: var(--brand100);
+        font-weight: 700;
+        font-size: 1.5rem;
+    }
+
+    .pet_type {
+        color: var(--grey200);
+        font-size: var(--size-12);
+        margin-bottom: 0.75rem;
+    }
+
+
+
+    .img_card {
+        width: 14rem;
+        height: 11.25rem;
+    }
+
+    .footer {
+        position: sticky;
+        top: 97.7%;
+        width: 100vw;
+        height: 1.3rem;
+        display: fixed;
+        background-color: var(--brand200);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .p_footer {
+        color: var(--brand100);
+    }
+
+}

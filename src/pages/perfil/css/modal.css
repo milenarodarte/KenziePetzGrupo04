@@ -1,0 +1,97 @@
+.modal-wrapper {
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+}
+
+.modal{
+    background-color: var(--grey400);
+    width: 100%;
+    max-width: 32.5rem;
+    height: 23.75rem;
+    align-self: center;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 1.5rem;
+    position: relative;
+}
+
+.modal-header{
+    height: 2rem;
+    width: 100%;
+    background-color: var(--brand100);
+    border-radius:0.5rem 0.5rem 0 0 ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+}
+.modal-header button{
+    background-color: transparent;
+    border: none;
+
+}
+
+.modal h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.modal div{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.modal div:nth-child(3) {
+    width: 90%;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.modal div input{
+    width: 15rem;
+    height: 1.5rem;
+    background: #FFFFFF;
+    border: 1px solid #B48CF2;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+input::placeholder{
+    color: #B48CF2;
+}
+
+.modal .select{
+    padding: 0;
+    width: 15rem;
+    height: 2rem;
+    border: 1px solid #B48CF2;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+
+}
+
+.select select{
+    border: none;
+    outline: none;
+    appearance: none;
+    color: #B48CF2;
+}
+
+.footer{
+    height: 2rem;
+    width: 100%;
+    background-color: var(--brand100);
+    position: absolute;
+    bottom: 0;
+    border-radius:0 0 0.5rem 0.5rem ;
+}

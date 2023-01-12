@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand100: #4E2096;
+  --brand200: #B48CF2;
+  --grey100: #1B1C1E;
+  --grey200: #90A4AE;
+  --grey300: #EEEEEE;
+  --grey400: #FFFFFF;
+  --alert100: #EA534A;
+  --sucess100: #33CC66;
+  --box-shadow-color: rgba(0, 0, 0, 0.25);
+
+  --size-0: 4.375rem;
+  /* 70px */
+  --size-1: 3.5rem;
+  /* 56px */
+  --size-2: 3rem;
+  /* 48px */
+  --size-3: 2.75rem;
+  /* 44px */
+  --size-4: 2.375rem;
+  /* 38px */
+  --size-5: 2rem;
+  /* 32px */
+  --size-6: 1.75rem;
+  /* 28px */
+  --size-7: 1.5rem;
+  /* 24px */
+  --size-8: 1.375rem;
+  /* 22px */
+  --size-9: 1.25rem;
+  /* 20px */
+  --size-10: 1rem;
+  /* 16px */
+  --size-11: 0.875rem;
+  /* 14px */
+  --size-12: 0.75rem;
+  /* 12px */
+  --size-13: 0.5rem;
+  /* 8px */
+  --size-14: 0.25rem;
+  /* 4px */
+
+  --radius-1: var(--size-5);
+  /* 32px */
+  --radius-2: var(--size-10);
+  /* 16px */
+  --radius-3: var(--size-13);
+  /* 8px */
+  --radius-4: var(--size-14);
+  /* 4px */
+
+  --font-1: var(--size-5);
+  /* 32px */
+  --font-2: var(--size-7);
+  /* 24px */
+  --font-3: var(--size-9);
+  /* 20px */
+  --font-4: var(--size-10);
+  /* 16px */
+  --font-5: var(--size-11);
+  /* 14px */
+  --font-6: var(--size-12);
+  /* 12px */
+  --font-7: var(--size-13);
+  /* 8px */
+
+  --font-weight-1: 600;
+  /* bold */
+  --font-weight-2: 500;
+  /* medium */
+  --font-weight-3: 400;
+  /* regular */
+}
+
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 63rem;
+  /* 800px */
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+#imgSpinner {
+  animation: spinner 1s infinite linear;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+button{
+  cursor: pointer;
+}

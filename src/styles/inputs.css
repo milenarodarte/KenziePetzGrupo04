@@ -1,0 +1,14 @@
+.input-default{
+    height: var(--size-7);
+    text-decoration-color: black;
+    border: 1px solid var(--brand200);
+    font-size: var(--size-12);
+    padding: 1rem;
+    border-radius: var(--size-10);
+    
+}
+
+.input-default:focus{
+    outline: 1px solid var(--brand100);
+
+}

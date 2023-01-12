@@ -1,0 +1,50 @@
+.button_white {
+    width: 7rem;
+    height: 1.875rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.15rem;
+    background-color: var(--grey400);
+    border: 1px solid var(--brand100);
+    color: var(--brand100);
+    font-size: 1.15rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 1rem;
+}
+.button_white:hover {
+    border: 1px solid var(--brand200);
+    color: var(--brand200);
+}
+.button_purple {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.25rem;
+    width: 7rem;
+    height: 1.875rem;
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    color: var(--grey400);
+    font-size: 1.15rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 1rem;
+}
+.button_purple:hover {
+    border: 1px solid var(--brand200);
+    background-color: var(--brand200);
+}
+.clean-btn{
+    border:none;
+    background-color: transparent;
+}
+.button_purple_max {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 0.25rem;
+    height: 1.875rem;
+    background-color: var(--brand100);
+    border: 1px solid var(--brand100);
+    color: var(--grey400);
+    font-size: 1.15rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+    border-radius: 1rem;
+}
